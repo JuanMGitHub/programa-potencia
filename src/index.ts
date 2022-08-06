@@ -7,7 +7,7 @@ function calcularPotencia (base1:number, exponente1:number):number{
   }
   return (resultado);
 };
-//programa
+//programa 
 base=Number(prompt("ingrese el número base mayor o igual a cero, para el cálculo"));
 while (base<0){
   base=Number(prompt("Ud ingresó una base de valor menor que cero, por favor ingrese numero distinto "))
